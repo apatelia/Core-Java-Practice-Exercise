@@ -1,3 +1,9 @@
+/*
+* Write a program which prints "ONE", "TWO",... , "NINE", "OTHER"
+* if a variable named "number" is 1, 2,... , 9, or other, respectively.
+* Use a "nested-if" statement.
+*/
+
 package com.apatelia.Conditions;
 
 import java.util.Scanner;

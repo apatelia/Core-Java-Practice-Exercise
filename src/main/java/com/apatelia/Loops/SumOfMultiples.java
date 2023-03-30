@@ -1,3 +1,9 @@
+/*
+* Write a program that sums all multiples of three and five up to and including the given number n.
+* For example, given n = 10, the sum will be 3 + 5 + 6 + 9 + 10 = 33.
+* Use for loop.
+*/
+
 package com.apatelia.Loops;
 
 import java.util.Scanner;

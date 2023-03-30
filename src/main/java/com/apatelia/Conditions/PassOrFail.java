@@ -1,3 +1,10 @@
+/*
+* Write a program which prints "FAIL" if a variable named "mark" is less than 50; or prints "PASS" otherwise.
+* The program should always print “DONE” before exiting.
+* Try mark = 0, 49, 50, 51, 100 and verify your results.
+*/
+
+
 package com.apatelia.Conditions;
 
 import java.util.Scanner;

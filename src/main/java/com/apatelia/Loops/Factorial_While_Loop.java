@@ -1,3 +1,8 @@
+/*
+ * Write a program to calculate the factorial of a given number n.
+ * Use a "while" loop.
+*/
+
 package com.apatelia.Loops;
 
 import java.util.Scanner;

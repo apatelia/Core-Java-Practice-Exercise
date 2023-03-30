@@ -1,3 +1,10 @@
+/*
+* Write a program to extract every single digit from a number, in the reverse order.
+* For example, if the int is 54321, the output should be "1 2 3 4 5", with a space separating the digits.
+* Use "while" loop.
+* OPTIONAL: Save the reversed number in a separate variable and then print it at the end.
+*/
+
 package com.apatelia.Loops;
 
 import java.util.Scanner;

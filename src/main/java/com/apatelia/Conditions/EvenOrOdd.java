@@ -1,3 +1,9 @@
+/*
+* Write a program which prints "Even Number" if a variable named “number” is even, or “Odd Number” otherwise.
+* Use Ternary operator.
+* Try number = 0, 1, 34, 79, -1, -2 and verify your results.
+*/
+
 package com.apatelia.Conditions;
 
 import java.util.Scanner;

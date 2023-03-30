@@ -1,3 +1,11 @@
+/*
+* Write a program which prints “Sunday”, “Monday”, ... “Saturday”,
+* if a variable named "dayNumber" is 0, 1, ..., 6, respectively.
+* Otherwise, it should print "Not a valid day".
+* Use a "nested-if" statement.
+* Try dayNumber = 0, 1, 2, 3, 4, 5, 6, 7 and verify your results.
+*/
+
 package com.apatelia.Conditions;
 
 import java.util.Scanner;
