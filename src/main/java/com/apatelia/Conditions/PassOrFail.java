@@ -16,6 +16,8 @@ public class PassOrFail {
         System.out.print("Enter marks(between 0 and 100): ");
         int mark = scanner.nextInt();
 
+        scanner.close();
+
         if (mark < 0 || mark > 100)
             System.out.println("Invalid marks: " + mark);
         else if (mark < 50)

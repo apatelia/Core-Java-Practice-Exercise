@@ -15,6 +15,8 @@ public class ReverseNumber {
         System.out.print("Enter a number: ");
         int number = scanner.nextInt();
 
+        scanner.close();
+
         int reversedNumber = 0;
 
         while (number > 0) {

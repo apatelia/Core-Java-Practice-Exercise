@@ -15,6 +15,8 @@ public class OneToNine_Switch_Case {
 
         int number = scanner.nextInt();
 
+        scanner.close();
+
         switch (number) {
             case 1:
                 System.out.println("ONE");

@@ -16,6 +16,8 @@ public class Weekdays_Nested_If {
         System.out.print("Enter the day number(0=Sunday, 1=Monday and so on): ");
         int dayNumber = scanner.nextInt();
 
+        scanner.close();
+
         if (dayNumber > 6 || dayNumber < 0)
             System.out.println("Not a valid day.");
         else {

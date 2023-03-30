@@ -16,6 +16,8 @@ public class Weekdays_Switch {
         System.out.print("Enter the day number(0=Sunday, 1=Monday and so on): ");
         int dayNumber = scanner.nextInt();
 
+        scanner.close();
+
         // This is a new `switch` syntax, only available in JDK >= 13.
         switch (dayNumber) {
             case 0 -> System.out.println("Sunday");

@@ -14,6 +14,8 @@ public class EvenOrOdd {
         System.out.print("Enter a number: ");
         int number = scanner.nextInt();
 
+        scanner.close();
+
         String evenOrOdd = (number % 2 == 0) ? "even" : "odd";
 
         System.out.println(number + " is an " + evenOrOdd + " number.");

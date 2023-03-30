@@ -13,6 +13,8 @@ public class Factorial_While_Loop {
         System.out.print("Enter a number: ");
         int n = scanner.nextInt();
 
+        scanner.close();
+
         int i = 1, factorial = 1;
 
         while (i <= n) {

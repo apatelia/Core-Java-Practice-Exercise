@@ -18,6 +18,8 @@ public class CircleArea {
         System.out.print("Enter circle's radius: ");
         int radius = scanner.nextInt();
 
+        scanner.close();
+
         float area = 2 * PI * radius;
 
         System.out.println("Area of the circle with radius " + radius + " = " + area);

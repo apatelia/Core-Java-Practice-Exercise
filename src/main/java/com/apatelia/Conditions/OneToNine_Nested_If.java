@@ -15,6 +15,8 @@ public class OneToNine_Nested_If {
 
         int number = scanner.nextInt();
 
+        scanner.close();
+
         if (number > 9 || number < 1)
             System.out.println("OTHER");
         else {

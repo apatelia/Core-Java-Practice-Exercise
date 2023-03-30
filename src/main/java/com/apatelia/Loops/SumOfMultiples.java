@@ -14,6 +14,8 @@ public class SumOfMultiples {
         System.out.print("Enter a number: ");
         int number = scanner.nextInt();
 
+        scanner.close();
+
         int sum = 0;
 
         System.out.println("Sum of all the multiples of 3 and 5 up to " + number + " is:");
